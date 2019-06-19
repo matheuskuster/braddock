@@ -18,7 +18,6 @@ def getRadius(left, top, right, bottom):
 
 while camera.isOpened():
     ret, frame = camera.read()
-    framesCounter += 1
     detectedBalls = detector(frame, 1)
     for ball in detectedBalls:
         left, top, right, bottom = (int(ball.left()), int(

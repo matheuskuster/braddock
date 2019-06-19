@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='../training_balls/1. maxresdefault.jpg'>
+    <box top='164' left='120' width='491' height='527'/>
+  </image>
+  <image file='../training_balls/11. aluminum-foil-ball-japan-18-5abe22f3b4fc0__700.jpg'>
+    <box top='155' left='160' width='311' height='318'/>
+  </image>
+  <image file='../training_balls/12. aluminum-foil-ball.png'>
+    <box top='98' left='139' width='152' height='153'/>
+    <box top='83' left='363' width='159' height='159'/>
+  </image>
+  <image file='../training_balls/13. 5abe52fec2524-png__700.jpg'>
+    <box top='109' left='277' width='273' height='258'/>
+  </image>
+  <image file='../training_balls/14. customized-anodized-smooth-32-24-20-large.jpg'>
+    <box top='38' left='21' width='312' height='306'/>
+  </image>
+  <image file='../training_balls/15. 180402-japan-polishing-aluminum-balls-index.jpg'>
+    <box top='532' left='1068' width='1257' height='1173'/>
+  </image>
+  <image file='../training_balls/17. maxresdefault.jpg'>
+    <box top='184' left='226' width='388' height='381'/>
+    <box top='162' left='659' width='400' height='410'/>
+  </image>
+  <image file='../training_balls/2. e9frbjmc26j01.jpg'>
+    <box top='191' left='348' width='468' height='471'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143110_2.jpg'>
+    <box top='240' left='303' width='67' height='65'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143110_3.jpg'>
+    <box top='169' left='343' width='71' height='71'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143110_4.jpg'>
+    <box top='353' left='342' width='70' height='72'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143110_5.jpg'>
+    <box top='385' left='361' width='67' height='71'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143155_2.jpg'>
+    <box top='235' left='177' width='67' height='70'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143155_3.jpg'>
+    <box top='244' left='172' width='71' height='73'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143155_4.jpg'>
+    <box top='248' left='232' width='71' height='73'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143155_5.jpg'>
+    <box top='228' left='239' width='64' height='63'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143155_6.jpg'>
+    <box top='217' left='286' width='60' height='60'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143250_1.jpg'>
+    <box top='304' left='193' width='72' height='74'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143257_2.jpg'>
+    <box top='307' left='139' width='60' height='60'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143257_3.jpg'>
+    <box top='303' left='165' width='60' height='58'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143257_4.jpg'>
+    <box top='309' left='184' width='59' height='58'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143257_5.jpg'>
+  </image>
+  <image file='../training_balls/2019-06-18-143309_1.jpg'>
+    <box top='281' left='277' width='60' height='60'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143309_2.jpg'>
+    <box top='284' left='231' width='63' height='60'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143309_3.jpg'>
+    <box top='285' left='229' width='62' height='61'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143309_4.jpg'>
+    <box top='285' left='230' width='60' height='61'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143309_5.jpg'>
+    <box top='213' left='340' width='60' height='58'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143316_1.jpg'>
+    <box top='299' left='270' width='59' height='59'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143321_2.jpg'>
+    <box top='263' left='225' width='101' height='108'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143321_3.jpg'>
+    <box top='265' left='213' width='112' height='107'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143321_4.jpg'>
+    <box top='310' left='202' width='101' height='104'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143321_5.jpg'>
+    <box top='322' left='291' width='72' height='73'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143336_1.jpg'>
+    <box top='188' left='110' width='120' height='117'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143336_2.jpg'>
+    <box top='196' left='150' width='115' height='108'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143336_3.jpg'>
+    <box top='146' left='116' width='115' height='113'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143336_4.jpg'>
+    <box top='143' left='121' width='114' height='107'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143336_5.jpg'>
+    <box top='143' left='121' width='114' height='114'/>
+  </image>
+  <image file='../training_balls/2019-06-18-143342_1.jpg'>
+    <box top='226' left='236' width='95' height='102'/>
+  </image>
+  <image file='../training_balls/22. fyz72ihjfx0dqh4.large.jpg'>
+    <box top='251' left='411' width='199' height='201'/>
+  </image>
+  <image file='../training_balls/23. aluminumballbanner2.jpg'>
+    <box top='17' left='134' width='333' height='338'/>
+    <box top='111' left='576' width='280' height='276'/>
+  </image>
+  <image file='../training_balls/24. matt-hollow-aluminum-ball-half-ball.jpg'>
+    <box top='18' left='56' width='247' height='251'/>
+  </image>
+  <image file='../training_balls/29. 74ngstl.jpg'>
+    <box top='1070' left='550' width='1441' height='1486'/>
+  </image>
+  <image file='../training_balls/3. aluminum-ball-500x500.jpg'>
+    <box top='124' left='128' width='249' height='255'/>
+  </image>
+  <image file='../training_balls/30. ftodd4fjfx0dqh3.large.jpg'>
+    <box top='30' left='198' width='604' height='589'/>
+  </image>
+  <image file='../training_balls/31. 17720261-aluminum-paper-ball-isolated-on-a-white-background-clipping-path.jpg'>
+    <box top='118' left='146' width='993' height='977'/>
+  </image>
+  <image file='../training_balls/36. 8inch-hollow-aluminum-spheres.jpg'>
+    <box top='0' left='204' width='559' height='577'/>
+  </image>
+  <image file='../training_balls/38. a_586b71e4d98ae._futaba-3d-aluminum-ball-bomb-mold---small---pack-of-10.jpg'>
+    <box top='123' left='15' width='328' height='333'/>
+    <box top='151' left='341' width='286' height='281'/>
+  </image>
+  <image file='../training_balls/4. sub-buzz-22394-1523289947-1.jpg'>
+    <box top='271' left='191' width='433' height='434'/>
+  </image>
+  <image file='../training_balls/40. foil1.jpg'>
+    <box top='217' left='33' width='143' height='135'/>
+    <box top='217' left='228' width='138' height='135'/>
+    <box top='230' left='433' width='144' height='121'/>
+  </image>
+  <image file='../training_balls/43. image?url=https%3a%2f%2fcdn-image.foodandwine.com%2fsites%2fdefault%2ffiles%2fstyles%2f4_3_horizontal_-_1200x900%2fpublic%2f1522786489%2faluminum-foil-ball-ft-blog0418.jpg%3fitok%3dz5sh0-ag&w=400&c=sc&poi=face&q=85.jpg'>
+    <box top='58' left='109' width='182' height='180'/>
+  </image>
+  <image file='../training_balls/54. foil-dryer-balls.jpg'>
+    <box top='42' left='114' width='150' height='153'/>
+  </image>
+  <image file='../training_balls/6. microwaving-foil_650x400_41522827888.jpg'>
+    <box top='118' left='123' width='192' height='188'/>
+  </image>
+  <image file='../training_balls/8. maxresdefault.jpg'>
+    <box top='209' left='793' width='298' height='289'/>
+    <box top='25' left='190' width='566' height='589'/>
+  </image>
+  <image file='../training_balls/84. crumpled-ball-aluminum-foil-isolated-450w-542481091.jpg'>
+    <box top='46' left='57' width='321' height='337'/>
+  </image>
+  <image file='../training_balls/9. foil-polishing-4.jpg'>
+    <box top='274' left='105' width='465' height='476'/>
+  </image>
+</images>
+</dataset>
