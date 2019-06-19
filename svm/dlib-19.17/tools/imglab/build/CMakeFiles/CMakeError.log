@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d46c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d46c.dir/build.make CMakeFiles/cmTC_3d46c.dir/build
+make[1]: Entering directory '/home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d46c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3d46c.dir/CheckSymbolExists.c.o   -c /home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3d46c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d46c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3d46c.dir/CheckSymbolExists.c.o  -o cmTC_3d46c 
+CMakeFiles/cmTC_3d46c.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3d46c.dir/build.make:97: recipe for target 'cmTC_3d46c' failed
+make[1]: *** [cmTC_3d46c] Error 1
+make[1]: Leaving directory '/home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3d46c/fast' failed
+make: *** [cmTC_3d46c/fast] Error 2
+
+File /home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2452b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2452b.dir/build.make CMakeFiles/cmTC_2452b.dir/build
+make[1]: Entering directory '/home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2452b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2452b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2452b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2452b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2452b.dir/CheckFunctionExists.c.o  -o cmTC_2452b -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2452b.dir/build.make:97: recipe for target 'cmTC_2452b' failed
+make[1]: *** [cmTC_2452b] Error 1
+make[1]: Leaving directory '/home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2452b/fast' failed
+make: *** [cmTC_2452b/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cd5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cd5e.dir/build.make CMakeFiles/cmTC_3cd5e.dir/build
+make[1]: Entering directory '/home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cd5e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_3cd5e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3cd5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cd5e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_3cd5e.dir/CheckFunctionExists.c.o  -o cmTC_3cd5e /usr/lib/x86_64-linux-gnu/liblapack.so 
+CMakeFiles/cmTC_3cd5e.dir/CheckFunctionExists.c.o: Na função "main":
+CheckFunctionExists.c:(.text+0x10): referência não definida para "sgesv"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3cd5e.dir/build.make:98: recipe for target 'cmTC_3cd5e' failed
+make[1]: *** [cmTC_3cd5e] Error 1
+make[1]: Leaving directory '/home/kuster/Development/Braddock/svm/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3cd5e/fast' failed
+make: *** [cmTC_3cd5e/fast] Error 2
+
+
