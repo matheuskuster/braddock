@@ -1,9 +1,19 @@
 import sys
+import serial
+
+PORT, SPEED = '/dev/ttyACM0', 9600
+
+arduinoSerial = serial.Serial(PORT, SPEED)
 
 
 def getFrameFromCamera(camera):
     _, frame = camera.read()
     return frame
+
+
+def sendToArduino(msg):
+    print('Sending [{}] to Arduino...'.format(msg))
+    arduinoSerial.write(msg.encode())
 
 
 def printMessage(msg, kind=''):
@@ -28,12 +38,12 @@ def setArguments(args):
     if '-v' in args:
         verboseMode = True
     if '-B' in args and '-L' in args:
-        print('[ERROR] You can only set Line Mode or Ball Mode, not both')
+        printMessage('You can only set Line Mode or Ball Mode, not both', 'e')
         sys.exit(0)
     elif '-B' in args:
         onlyBallMode = True
         fullMode = False
-    elif '-V' in args:
+    elif '-L' in args:
         onlyLineMode = True
         fullMode = False
 
